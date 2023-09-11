@@ -1,0 +1,42 @@
+img.octocat {
+    height: 200px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 800px;
+    display: flex; 
+    margin: 0 auto;
+    flex-direction:column;
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+}
+
+.row1{
+    display: flex;
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 20px;
+    justify-content:space-between;
+}
+
+.row2{
+    display: flex;
+    background-color: darkorange;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.row3{
+    display: flex;
+    background-color: darkorchid;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+}
